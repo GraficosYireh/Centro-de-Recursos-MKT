@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="es-MX">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#2b3486">
+  <meta name="description" content="Descarga logotipos complementarios y archivos de apoyo del Centro de Recursos de Corporativo Yireh.">
+  <title>Otros Recursos | Centro de Recursos</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="logo-downloads.js" defer></script>
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#contenido">Saltar al contenido</a>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html#inicio" class="brand" aria-label="Centro de Recursos, ir al inicio">
+        <span class="brand-symbol" aria-hidden="true"><img src="recursos/branding/isologo-yireh.png" alt=""></span>
+        <span class="brand-copy"><strong>Centro de Recursos</strong><small>CORPORATIVO YIREH · MARKETING</small></span>
+      </a>
+      <button class="menu-toggle" type="button" aria-controls="site-nav" aria-expanded="false" aria-label="Abrir menú"><span></span><span></span><span></span></button>
+      <nav class="site-nav" id="site-nav" aria-label="Navegación principal"><button class="global-search-trigger" type="button" aria-haspopup="dialog" aria-controls="global-search-dialog" title="Buscar en todo el portal"><span aria-hidden="true">⌕</span> Buscar <kbd>Ctrl K</kbd></button>
+        <a href="index.html#inicio" class="nav-link">Inicio</a>
+        <a href="index.html#logos" class="nav-link">Logos</a>
+        <a href="index.html#tipografia" class="nav-link">Tipografía</a>
+        <a href="index.html#formatos" class="nav-link">Formatos</a>
+        <a href="otros-recursos.html" class="nav-link active">Otros Recursos</a>
+        <a href="index.html#que-no-hacer" class="nav-link">¿Qué no hacer?</a>
+        <a href="tutoriales.html" class="nav-link">Tutoriales</a>
+        <a href="index.html#asistencia" class="nav-link nav-cta">Asistencia <span aria-hidden="true">↗</span></a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="contenido">
+<section class="tutorial-page-hero extra-hero">
+ <div class="container">
+  <a class="breadcrumb" href="index.html#inicio">← Volver al inicio</a>
+  <p class="overline">BIBLIOTECA COMPLEMENTARIA</p>
+  <h1>Otros <em>Recursos.</em></h1>
+  <p>Encuentra marcas complementarias, campañas y materiales de apoyo. Accede a los archivos aprobados desde un solo lugar.</p>
+  <div class="tutorial-page-stats"><span>6 versiones de logotipo</span><span>PNG + SVG</span><span>6 paquetes de ejemplo ZIP</span></div>
+ </div>
+</section>
+<section class="section section-anchor" id="otros-logos">
+ <div class="container">
+  <div class="section-heading"><div><p class="overline">01 / IDENTIDADES ADICIONALES</p><h2>Logotipos y marcas<span class="period">.</span></h2></div><p>Descarga cada logotipo en formato PNG para uso digital o SVG para proyectos que necesitan una imagen vectorial.</p></div>
+  <div class="company-filter" role="group" aria-label="Filtrar otros recursos" data-other-filter>
+<button class="company-chip selected" data-other="Todos" aria-pressed="true" type="button">Todos</button>
+<button class="company-chip" data-other="Marcas" aria-pressed="false" type="button">Marcas complementarias</button>
+<button class="company-chip" data-other="Campañas" aria-pressed="false" type="button">Campañas y eventos</button>
+<button class="company-chip" data-other="RRSS" aria-pressed="false" type="button">RRSS</button>
+</div>
+  <div class="toolbar"><label class="search-box"><span aria-hidden="true">⌕</span><span class="sr-only">Buscar logotipos adicionales</span><input id="other-logo-search" type="search" placeholder="Buscar marca…" autocomplete="off"></label><span id="other-logo-count" class="results-count" aria-live="polite"></span></div>
+  <div id="other-logo-grid" class="resource-grid"></div>
+ </div>
+</section>
+<section class="section tinted-section section-anchor" id="descargables">
+ <div class="container">
+  <div class="section-heading"><div><p class="overline">02 / MATERIAL DE APOYO</p><h2>Recursos descargables<span class="period">.</span></h2></div><p>Archivos de campaña, redes sociales y materiales especiales. Cada paquete de muestra se puede descargar y extraer.</p></div>
+  <div class="demo-notice"><strong>Archivos de demostración:</strong> los ZIP de esta sección son ejemplos funcionales con documentos de muestra. No contienen diseños oficiales; reemplázalos cuando se entreguen los paquetes reales.</div>
+  <div id="extra-pack-grid" class="extra-pack-grid"></div>
+ </div>
+</section>
+<section id="asistencia" class="section section-anchor assistance-section" aria-labelledby="help-title"><div class="container assistance-layout"><div class="assistance-text"><p class="overline light">03 / ESTAMOS PARA AYUDARTE</p><h2 id="help-title">¿Necesitas algo <em>más específico?</em></h2><p>Si no encuentras algún recurso, necesitas una adaptación o tienes dudas sobre su uso, contacta al área de Marketing.</p><div class="support-features"><span>✓ Solicitud de archivos</span><span>✓ Revisión de diseños</span><span>✓ Orientación de marca</span></div></div><form id="support-form" class="support-form"><h3>Cuéntanos qué necesitas</h3><label for="request-name">Nombre</label><input id="request-name" name="nombre" autocomplete="name" placeholder="Tu nombre" required maxlength="80"><label for="request-dept">Área o departamento</label><input id="request-dept" name="departamento" placeholder="Ej. Administración" required maxlength="80"><label for="request-type">Tipo de solicitud</label><select id="request-type" name="tipo" required><option value="">Selecciona una opción</option><option>Solicitar recurso</option><option>Revisión de diseño</option><option>Orientación de marca</option><option>Otro</option></select><label for="request-message">Descripción</label><textarea id="request-message" name="mensaje" rows="3" placeholder="Describe brevemente tu solicitud…" required maxlength="1200"></textarea><button type="submit" class="button button-primary button-full">Preparar correo de solicitud <span aria-hidden="true">↗</span></button><p class="support-status" id="support-status" role="status" aria-live="polite"></p><p class="form-caption">Al continuar se abrirá tu aplicación de correo con la solicitud preparada. Debes presionar Enviar desde allí.</p></form></div></section></main>
+<footer class="footer"><div class="container footer-inner"><a href="index.html#inicio" class="footer-brand">◈ <strong>Centro de Recursos</strong></a><span>Marketing · Comunicación Visual</span><span>Uso interno · <span id="year"></span></span></div></footer>
+<a class="floating-help" href="tutoriales.html" aria-label="Abrir ayuda y tutoriales"><span aria-hidden="true">?</span> Ayuda</a>
+<dialog id="global-search-dialog" class="global-search-dialog" aria-labelledby="search-dialog-title">
+  <div class="global-search-top"><div><p class="overline">BUSCADOR GLOBAL</p><h2 id="search-dialog-title">¿Qué recurso necesitas?</h2></div><button type="button" id="global-search-close" class="close-dialog" aria-label="Cerrar buscador">×</button></div>
+  <label class="global-search-field"><span aria-hidden="true">⌕</span><input type="search" id="global-search-input" placeholder="Buscar logos, marcas, colores, tutoriales, formatos..." autocomplete="off" aria-label="Buscar en todo el sitio"></label>
+  <div class="global-search-meta"><span id="global-search-count" aria-live="polite">Escribe para buscar en todas las secciones</span><span>ESC para cerrar</span></div>
+  <div id="global-search-results" class="global-search-results"></div>
+ </dialog>
+<div id="toast" class="toast" role="status" aria-live="polite"></div>
+</body></html>
